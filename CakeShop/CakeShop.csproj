@@ -6,17 +6,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Compile Remove="Migrations\**" />
-    <Compile Remove="TagHelpers\**" />
-    <Content Remove="Migrations\**" />
-    <Content Remove="TagHelpers\**" />
-    <EmbeddedResource Remove="Migrations\**" />
-    <EmbeddedResource Remove="TagHelpers\**" />
-    <None Remove="Migrations\**" />
-    <None Remove="TagHelpers\**" />
-  </ItemGroup>
-
-  <ItemGroup>
     <Content Include="Persistence\CakeRepository.cs" />
   </ItemGroup>
 
